@@ -3,7 +3,7 @@ This repository contains the data files and analysis code used in the manuscript
 Below are examples of using the functions to find the number of tricksters from the individual and collective preferences using the majority rule. The data file, colour.mat, contains the results of the 2AFC preferential task for eight colours. If  you load it, you can see the two variables, ALLmat and ALLmatRt, which are adjacency matrices for the choices and their RTs of all 119 subjects, respectively: 
 
 ```
-load ./data/color.mat;
+>> load ./data/color.mat;
 >> whos
   Name          Size               Bytes  Class     Attributes
 
@@ -13,7 +13,7 @@ load ./data/color.mat;
 
 If you want to investigate the tricksters of the choices from the first subject S1, you can use the function to find tricksters, Generator.m:
 ```
-[trickters, NoTrk]=Generator(ALLmat(:,:,1))
+>> [trickters, NoTrk]=Generator(ALLmat(:,:,1))
 
 trickters =
 
@@ -36,9 +36,9 @@ As mentioned in the manuscript, tricksters are defined as a minimal set of alter
 The study's main finding - the majority's choices have no tricksters - could be checked by the following:
 
 ```
-meanMat=mean(ALLmat,3);
-M=makeAdjFromAvgMat(meanMat);
-[trickters, NoTrk]=Generator(M)
+>> meanMat=mean(ALLmat,3);
+>> M=makeAdjFromAvgMat(meanMat);
+>> [trickters, NoTrk]=Generator(M)
 
 trickters =
 
