@@ -33,7 +33,7 @@ NoTrk =
 ```
 As mentioned in the manuscript, tricksters are defined as a minimal set of alternatives such that the other alternatives could be preferentially ranked. Though tricksters are not uniquely determined, as you see in the above example, their numbers are fixed due to the minimum property.
 
-The study's main finding - the majority's choices have no tricksters - could be checked simply by the following:
+The study's main finding - the majority's choices have no tricksters - could be checked by the following:
 
 ```
 meanMat=mean(ALLmat,3);
