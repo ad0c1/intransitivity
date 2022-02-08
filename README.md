@@ -11,7 +11,7 @@ Below are examples of using the functions to find the number of tricksters from 
   ALLmatRt      8x8x119            60928  double              
 ```
 
-If you want to investigate the tricksters of the choices from the first subject S1, you can use the function M-file to find tricksters, Generator.m:
+If you want to investigate the tricksters of the choices from the first subject S1, you can use the function M-file, Generator.m, to find tricksters:
 ```
 >> [trickters, NoTrk]=Generator(ALLmat(:,:,1))
 
@@ -31,7 +31,7 @@ NoTrk =
 
      3
 ```
-Above NoTrk denotes the number of tricksters. As mentioned in the manuscript, tricksters are defined as a minimal set of alternatives such that the other alternatives could be preferentially ranked. Though tricksters are not uniquely determined, as you see in the above example, their numbers are fixed due to the minimum property.
+Here, NoTrk denotes the number of tricksters. As mentioned in the manuscript, tricksters are defined as a minimal set of alternatives such that the other alternatives could be preferentially ranked. Though tricksters are not uniquely determined, as you see in the above example, their numbers are fixed due to the minimum property.
 
 The study's main finding - the majority's choices have no tricksters - could be checked by the following:
 
