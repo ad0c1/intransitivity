@@ -1,5 +1,6 @@
-This repository contains the data files and analysis code used in the manuscript titled "The existence of a priori collective preferential ranking." The data folder contains all of the total 119 subjects' choices and reaction times(RTs) data in the Matlab 'mat' file format.
-Below are examples of how to use the functions to find the number of tricksters from the individual and collective preferences using the majority rule. If you load the data file, you can see the two variables, ALLmat and ALLmatRt, which are adjacency matrices for the choices in the 2AFC preferential tasks and their RTs of all 119 subjects, respectively: 
+This repository contains the data files and analysis code used in the manuscript titled "The existence of a priori collective preferential ranking." The data folder contains all of the total 119 subjects' choices and reaction times(RTs) data in the Matlab 'mat' file format.  
+
+Below are examples of using the functions to find the number of tricksters from the individual and collective preferences using the majority rule. The data file, colour.mat, contains the results of the 2AFC preferential task for eight colours. If  you load it, you can see the two variables, ALLmat and ALLmatRt, which are adjacency matrices for the choices and their RTs of all 119 subjects, respectively: 
 
 ```
 load ./data/color.mat;
@@ -10,7 +11,7 @@ load ./data/color.mat;
   ALLmatRt      8x8x119            60928  double              
 ```
 
-If you want to investigate the tricksters of the choices performed by the first subject S1 of the total 119 participants, you can use the function to find tricksters, Generator.m:
+If you want to investigate the tricksters of the choices from the first subject S1, you can use the function to find tricksters, Generator.m:
 ```
 [trickters, NoTrk]=Generator(ALLmat(:,:,1))
 
