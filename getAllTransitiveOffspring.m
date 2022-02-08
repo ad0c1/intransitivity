@@ -1,7 +1,7 @@
 function AllTransitiveOrder = getAllTransitiveOffspring(A)
 % A: adjacent matrix of individual choices
 % AllTransitiveOrder: all possible arrays of transitive offspring
-[gen_nodes, Min]=shin_NoGenerator(A);
+[gen_nodes, Min]=Generator(A);
 AllTransitiveOrder={};
 if ~isempty(gen_nodes)
 
