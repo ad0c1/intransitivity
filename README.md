@@ -1,5 +1,5 @@
 This repository contains the data files and analysis code used in the manuscript titled "The existence of a priori collective preferential ranking." The data folder contains all of the total 119 subjects' choices and reaction times(RTs) data in the Matlab 'mat' file format.
-Below are examples of how to use the functions to find the number of tricksters from the individual and collective preferences using the majority rule. If you load the data file, you can see the two variables, ALLmat and ALLmatRt, which are adjacency matrices for the choices in the 2AFC preferential tasks and their RTs of all 119 subjects: 
+Below are examples of how to use the functions to find the number of tricksters from the individual and collective preferences using the majority rule. If you load the data file, you can see the two variables, ALLmat and ALLmatRt, which are adjacency matrices for the choices in the 2AFC preferential tasks and their RTs of all 119 subjects, respectively: 
 
 ```
 load ./data/color.mat;
