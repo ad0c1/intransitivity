@@ -35,8 +35,8 @@ As mentioned in the manuscript, tricksters are defined as a minimal set of alter
 The study's main finding - the majority's choices have no tricksters - could be checked simply by the following:
 
 ```
-meanMats=mean(ALLmat,3);
-M=makeAdjFromAvgMat(meanMats);
+meanMat=mean(ALLmat,3);
+M=makeAdjFromAvgMat(meanMat);
 [trickters, NoTrk]=Generator(M)
 
 trickters =
