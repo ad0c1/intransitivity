@@ -1,4 +1,4 @@
-This repository contains the data files and analysis code used in the manuscript titled "The existence of a priori collective preferential ranking." The data folder contains all of the total 119 subjects' choices and reaction times(RTs) data in the Matlab 'mat' file format.  
+This repository contains data files and MATLAB function M-files used in the manuscript titled "The existence of a priori collective preferential ranking." The data folder contains all of the total 119 subjects' choices and reaction times(RTs) data in the Matlab 'mat' file format.  
 
 Below are examples of using the functions to find the number of tricksters from the individual and collective preferences using the majority rule. The data file, colour.mat, contains the results of the 2AFC preferential task for eight colours. If  you load it, you can see the two variables, ALLmat and ALLmatRt, which are adjacency matrices for the choices and their RTs of all 119 subjects, respectively: 
 
@@ -11,7 +11,7 @@ Below are examples of using the functions to find the number of tricksters from 
   ALLmatRt      8x8x119            60928  double              
 ```
 
-If you want to investigate the tricksters of the choices from the first subject S1, you can use the function to find tricksters, Generator.m:
+If you want to investigate the tricksters of the choices from the first subject S1, you can use the function M-file to find tricksters, Generator.m:
 ```
 >> [trickters, NoTrk]=Generator(ALLmat(:,:,1))
 
@@ -31,7 +31,7 @@ NoTrk =
 
      3
 ```
-As mentioned in the manuscript, tricksters are defined as a minimal set of alternatives such that the other alternatives could be preferentially ranked. Though tricksters are not uniquely determined, as you see in the above example, their numbers are fixed due to the minimum property.
+Above NoTrk denotes the number of tricksters. As mentioned in the manuscript, tricksters are defined as a minimal set of alternatives such that the other alternatives could be preferentially ranked. Though tricksters are not uniquely determined, as you see in the above example, their numbers are fixed due to the minimum property.
 
 The study's main finding - the majority's choices have no tricksters - could be checked by the following:
 
