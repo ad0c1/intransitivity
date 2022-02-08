@@ -1,5 +1,5 @@
 
-function [gen_nodes, Min]=shin_NoGenerator(M)
+function [gen_nodes, Min]=Generator(M)
 % M: adjacent matrix of individual choices
 % gen_dones: all possible combinations of tricksters
 % Min: the number of tricksters
