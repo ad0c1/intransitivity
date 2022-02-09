@@ -1,4 +1,4 @@
-This repository contains data files and MATLAB function M-files used in the manuscript titled "The existence of a priori collective preferential ranking." See overview of the study here: http://www.sogum.com/overviewVideo.mp4 
+This repository contains data files and MATLAB function M-files used in the manuscript titled "The existence of a priori collective preferential ranking." See overview of the study here: http://www.sogum.com/intransitivity.html
 
 The data folder contains all of the total 119 subjects' choices and reaction times(RTs) in the Matlab 'mat' file format.  
 
