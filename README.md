@@ -1,4 +1,9 @@
-This repository contains data files and MATLAB function M-files used in the manuscript titled "The existence of a priori collective preferential ranking." See overview of the study https://user-images.githubusercontent.com/3262926/155796073-f284b8bc-c4ec-47ac-a0db-7fe32ed7c636.mp4
+This repository contains data files and MATLAB function M-files used in the manuscript titled "The existence of a priori collective preferential ranking." See overview of the study 
+
+
+
+https://user-images.githubusercontent.com/3262926/155797223-51f1d0d0-0855-4d0d-907f-fa5591fc6c20.mp4
+
 
 
 
